@@ -6,7 +6,7 @@
 const { Sequelize, DataTypes } = require('sequelize');
 const bcrypt = require('bcryptjs');
 
-const sequelize = new Sequelize('StudentDB', 'root', '1234', {
+const sequelize = new Sequelize('StudentDB', 'admin', 'g6MwPe%s', {
   host: 'localhost',
   dialect: 'mysql'
 });

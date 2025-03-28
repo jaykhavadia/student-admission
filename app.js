@@ -49,7 +49,7 @@ app.use(passport.session());
 // DB Config
 const db = require('./config/secret').mongoURI;
 
-const sequelize = new Sequelize('StudentDB', 'root', '1234', {
+const sequelize = new Sequelize('StudentDB', 'admin', 'g6MwPe%s', {
   host: 'localhost',
   dialect: 'mysql'
 });
